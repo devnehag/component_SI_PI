@@ -1,7 +1,7 @@
 <!-- Property Binding -->
-<button class="btn btn-primary" 
+<!-- <button class="btn btn-primary" 
 [disabled]="!allowNewServer" (click)="onCreateServer()">
-Add server</button>
+Add server</button> -->
     
 
     <!-- <p>{{allowNewServer}}</p> -->
@@ -10,4 +10,7 @@ Add server</button>
     <!-- <p [innerText]="allowNewServer"></p> -->
     
     <!-- Event Binding -->
+    <button class="btn btn-primary" 
+    (click)="onCreateServer()">
+       Add server</button>
     <p>{{serverCreationStatus}}</p> 
