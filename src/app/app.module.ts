@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
@@ -8,6 +8,7 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { AlertComponent } from './alert/alert.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { TwbComponent } from './twb/twb.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,13 @@ import { ServersComponent } from './servers/servers.component';
     SuccessAlertComponent,
     AlertComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    TwbComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
