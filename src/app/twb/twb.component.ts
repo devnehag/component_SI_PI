@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TwbComponent {
   title:string ='This is my title';
+  username: string = '';
+  resetUsername() {
+    // Reset the username to an empty string
+    this.username = '';
+  }
 }

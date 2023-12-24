@@ -9,6 +9,7 @@ import { AlertComponent } from './alert/alert.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { TwbComponent } from './twb/twb.component';
+import { NgforexampleComponent } from './ngforexample/ngforexample.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TwbComponent } from './twb/twb.component';
     AlertComponent,
     ServerComponent,
     ServersComponent,
-    TwbComponent
+    TwbComponent,
+    NgforexampleComponent
   ],
   imports: [
     BrowserModule,
